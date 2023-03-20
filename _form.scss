@@ -1,0 +1,59 @@
+.form {
+    background: url(img/form.jpg) no-repeat center center fixed; 
+    height: 400px;
+    display: flex;
+    &__box {
+        @include flex();
+        align-items: center;
+        gap: 20px;
+    }
+    &__title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        color: #FFFFFF;
+        max-width: 550px;
+    }
+    &__email {
+        display: flex;
+        gap: 25px;
+    }
+    &__input {
+        background: rgba(217, 217, 217, 0.03);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(2.5px);
+        border-radius: 5px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        width: 458px;
+        padding: 12px 55px;
+        color: #FFFFFF;
+    }
+    &__imput::placeholder {
+        color: #D4DED9;
+    }
+    &__btn {
+        padding: 12px 45px;
+        transition: all 0.4s;
+        background: $color;
+        border: 2px solid $color;
+        backdrop-filter: blur(2.5px);
+        border-radius: 5px;
+        color: #D4DED9;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    &__btn:hover{
+        background: #0F774A;
+        border: 2px solid #0F774A;
+        color: #ffffff;
+    }
+}

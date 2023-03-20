@@ -1,0 +1,45 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+    gap: 35px;   
+    &__heading {
+        text-align: center;
+    }
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 57px;
+        justify-content: center;
+    }
+    &__cart{
+        max-width: 360px;
+    }
+    &__img{
+        max-width: 360px;
+    }
+    &__title {
+        margin: 16px 0 8px 0;
+        min-height: 57px;
+    }
+    &__bottom {
+        @include flex();
+        margin-top: 20px;
+    }
+    &__data {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__more {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__link {
+        font-size: 16px;
+    }
+    &__link:hover{
+        text-decoration: underline;
+    }
+}

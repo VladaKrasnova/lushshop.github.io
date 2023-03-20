@@ -1,0 +1,212 @@
+@media (max-width: 1200px){
+    .center{
+        padding-left:  calc(50% - 393px);
+        padding-right:  calc(50% - 393px);
+    }
+
+    .heading{
+        font-size: 26px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .top {
+        padding: 0 10px;
+    &__menu {
+            gap: 30px;
+    }
+    &__link {
+        font-size: 16px;
+    }
+    &__tel {
+        font-size: 16px;
+    }
+    &__heading {
+        font-size: 40px;
+    }
+    &__text {
+        font-size: 16px;
+        margin: 10px 0 25px 0;
+    }
+    }
+    .about {
+        margin: 80px 0;
+    &__top {
+        gap: 40px;
+    }
+    &__text {
+        font-size: 16px;
+        max-width: 420px;
+    }
+    &__cart-box {
+        gap: 30px;
+        margin-top: 50px;
+    }
+    &__cart {
+        width: 33,333%;
+        height: 310px;
+        gap: 10px;
+        padding: 15px 15px;
+    }
+    &__cart-text {
+        max-width: 200px;
+        font-size: 14px;
+    }
+    &__icon{
+        width: 60px;
+    }
+    }
+    .offer {
+    &__products {
+        justify-content: start;
+        gap: 10px;
+    }
+    &__product {
+            width: 255px;
+    }
+    &__img {
+        width: 255px;
+    }
+    &__info {
+        padding: 10px 10px;
+    }
+    }
+    .advant {
+        width: 100%;
+        margin: 80px 0;
+        grid-template-rows: repeat(2, 285px);
+        &__cart {
+            gap: 10px;
+            padding: 15px 15px;
+        }
+        &__text {
+            max-width: 243px;
+        }
+        &__icon{
+            width: 80px;
+        }
+    }
+    .gallery {
+        &__heading {
+            font-size: 26px;
+        }
+        &__photo {
+            gap: 5px;
+            grid-template-rows: repeat(2, 260px);
+        }
+    }
+    .comment {
+        margin: 80px 0;
+        &__box {
+            gap: 20px;
+        }
+        &__cart {
+            width: 360px;
+		    height: 280px;
+            padding: 40px 10px 0 20px;
+        }
+        &__avatar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+        &__photo {
+            width: 55px;
+            border-radius: 50%;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__text {
+            max-width: 244px;
+            font-size: 14px;
+        }
+    }
+    .cart1::before{
+        width: 188px;
+	    height: 158px;
+    }
+    .cart2::before{
+        width: 147px;
+        height: 157px;
+    }
+    .cart3::before{
+        width: 179px;
+        height: 174px;
+    }
+    .form {
+        height: 300px;
+        &__title {
+            font-size: 24px;
+        }
+        &__email {
+            gap: 10px;
+        }
+        &__input {
+            font-size: 14px;
+            width: 260px;
+            padding: 12px 20px;
+        }
+        &__btn {
+            padding: 12px 40px;
+            font-size: 14px;
+        }
+    }
+    .blog {
+        margin: 80px 0;
+        &__box {
+            gap: 20px;
+        }
+        &__cart{
+            max-width: 245px;
+        }
+        &__img{
+            max-width: 245px;
+        }
+        &__title {
+            margin: 10px 0;
+            min-height: 44px;
+        }
+        &__text {
+            min-height: 78px;
+            font-size: 13px;
+        }
+        &__bottom {
+            margin-top: 10px;
+        }
+        &__data {
+            gap: 10px;
+        }
+        &__day {
+            font-size: 13px;
+        }
+        &__more {
+            gap: 10px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    .footer {
+        gap: 40px;
+        padding: 50px 0;
+    &__nav {
+        gap: 30px; 
+    }
+    &__menu_link{
+        font-size: 14px;
+    }
+    }
+    .footer::before{
+        width: 0px;
+        height: 0px;
+    }
+    .footer::after{
+        width: 0px;
+        height: 0px;
+    }
+}

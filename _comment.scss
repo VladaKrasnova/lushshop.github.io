@@ -1,0 +1,62 @@
+.comment {
+	display: flex;
+	flex-direction: column;
+	margin: 120px 0;
+	gap: 35px;
+	&__heading {
+		text-align: center;
+	}
+	&__box {
+		display: flex;
+		gap: 60px;
+	}
+	&__cart {
+		background: #F8F8F8;
+		border-radius: 10px;
+		width: 360px;
+		height: 330px;
+		padding: 40px 0 0 44px;
+		position: relative;
+	}
+	&__avatar {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		margin-bottom: 40px;
+	}
+	&__photo {
+		width: 64px;
+		border-radius: 50%;
+	}
+	&__text {
+		max-width: 244px;
+	}
+}
+
+.cart1::before{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	content: '';
+	width: 258px;
+	height: 228px;
+	background: url(img/cart1.svg) no-repeat;
+}
+.cart2::before{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	content: '';
+	width: 176px;
+	height: 197px;
+	background: url(img/cart2.svg) no-repeat;
+}
+.cart3::before{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	content: '';
+	width: 179px;
+	height: 174px;
+	background: url(img/cart3.svg) no-repeat;
+}

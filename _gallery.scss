@@ -1,0 +1,43 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    &__heading {
+        text-align: center;
+    }
+    &__photo {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 325px);
+        grid-template-areas: 
+            'a b c'
+            'a d e';
+    }
+    &__img1 {
+        grid-area: a;
+        background: url(img/img1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    &__img2 {
+        grid-area: b;
+        background: url(img/img2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    &__img3 {
+        grid-area: c;
+        background: url(img/img3.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    &__img4 {
+        grid-area: d;
+        background: url(img/img4.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    &__img5 {
+        grid-area: e;
+        background: url(img/img5.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+

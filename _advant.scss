@@ -1,0 +1,42 @@
+.advant {
+    width: 100%;
+    margin: 120px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 379px);
+    grid-template-areas: 
+    'a a b c'
+    'a a d e';
+    &__img{
+        grid-area: a;
+        background: url(img/advant.jpg) no-repeat center right;
+        background-size: cover;
+        max-width: 720px;
+    }
+    &__cart {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 54px 0 0 60px;
+    }
+    &__text {
+        max-width: 243px;
+    }
+}
+.item1 {
+    grid-area: b;
+    background: #FCFCFC;
+}
+.item2 {
+    grid-area: c;
+    background: #F8F8F8;
+}
+.item3 {
+    grid-area: d;
+    background: #F8F8F8;
+}
+.item4 {
+    grid-area: e;
+    background: #FCFCFC;
+}
+

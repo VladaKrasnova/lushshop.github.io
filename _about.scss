@@ -1,0 +1,48 @@
+.about {
+        margin: 120px 0;
+    &__top {
+        @include flex();
+        align-items: center;
+        gap: 75px;
+    }
+    &__heading {
+        max-width: 476px;
+    }
+    &__text {
+        font-size: 18px;
+        max-width: 648px;
+    }
+    &__cart-box {
+        @include flex();
+        gap: 80px;
+        margin-top: 90px;
+    }
+    &__cart {
+        width: 350px;
+        height: 380px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0 0 40px;
+        &--green{
+            background: $color;
+        }
+    }
+    &__cart-title {
+        &--green{
+            color: #FFFFFF;
+        }
+    }
+    &__cart-text {
+        font-size: 16px;
+        max-width: 260px;
+        &--green{
+            opacity: 0.8;
+            color: #FFFFFF;
+        }
+    }
+}
